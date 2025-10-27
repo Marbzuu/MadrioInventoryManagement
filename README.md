@@ -75,7 +75,7 @@ Follow these steps to set up and run the project locally:
     php artisan migrate
     ```
 
-9.Start the Local Development Server
+9. Start the Local Development Server
     ```bash
     php artisan serve
     ```
