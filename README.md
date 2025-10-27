@@ -39,10 +39,12 @@ Follow these steps to set up and run the project locally:
    Laravel requires Composer.  
    Download it here: [https://getcomposer.org/](https://getcomposer.org/).
     ```
+   
 3. **Copy the Project Folder**
    ```bash
    Move your project folder `TH` into:
     ```
+   
 4. **Open the Project in Command Prompt**
     ```bash
     cd C:\xampp\htdocs\TH
@@ -62,6 +64,7 @@ Follow these steps to set up and run the project locally:
     DB_USERNAME=root
     DB_PASSWORD=
     ```
+   
 7. Generate the Application Key
    ```bash
     php artisan key:generate
