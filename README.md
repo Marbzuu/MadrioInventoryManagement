@@ -29,12 +29,70 @@ This project was developed as part of the **Midterm Examination**.
 
 Follow these steps to set up and run the project locally:
 
-1. **Install XAMPP**  
+1. **Install XAMPP**
+   ```bash  
    Download and install XAMPP from [https://www.apachefriends.org/](https://www.apachefriends.org/).
-
-2. **Install Composer**  
+   ```
+   
+2. **Install Composer**
+   ```bash
    Laravel requires Composer.  
    Download it here: [https://getcomposer.org/](https://getcomposer.org/).
-
-3. **Copy the Project Folder**  
+    ```
+3. **Copy the Project Folder**
+   ```bash
    Move your project folder `TH` into:
+    ```
+4. **Open the Project in Command Prompt**
+    ```bash
+    cd C:\xampp\htdocs\TH
+    ```
+    
+5. Install Laravel Dependencies
+   ```bash
+    composer install
+   ```
+
+6. Set Up the Environment File
+   ```bash
+    - Copy .env.example and rename it to .env
+    - Open .env and update your database connection:
+
+    DB_DATABASE=inventory_db
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+7. Generate the Application Key
+   ```bash
+    php artisan key:generate
+    ```
+   
+8. Run Migrations
+```bash
+**php artisan migrate**
+```
+
+9.Start the Local Development Server
+    ```bash
+    php artisan serve
+    ```
+
+10. View the System
+    ```bash
+    http://127.0.0.1:8000
+    ```
+
+
+👥 Contributors
+
+Name: Marben Antony L. Madrio
+Course / Section: [BS INFORMATION TECHNOLOGY]
+
+
+📜 License
+
+This project is developed for educational purposes only.
+© 2025 Marben Antony L. Madrio. All Rights Reserved.
+
+
+
