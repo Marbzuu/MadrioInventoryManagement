@@ -86,7 +86,7 @@ Follow these steps to set up and run the project locally:
 👥 Contributors
 
 Name: Marben Antony L. Madrio
-Course / Section: [BS INFORMATION TECHNOLOGY]
+Course / Section: BS INFORMATION TECHNOLOGY 4A
 
 
 📜 License
