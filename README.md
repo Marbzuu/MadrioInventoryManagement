@@ -68,9 +68,9 @@ Follow these steps to set up and run the project locally:
     ```
    
 8. Run Migrations
-```bash
-**php artisan migrate**
-```
+    ```bash
+    php artisan migrate
+    ```
 
 9.Start the Local Development Server
     ```bash
